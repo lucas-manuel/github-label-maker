@@ -83,6 +83,9 @@ EOF
 
 # Function that verifies required input was passed in
 verify_input() {
+  echo sii $GITHUBORG
+  echo sii $GITHUBREPO
+  echo sii $GITHUBTOKEN
   # Verify required inputs are not empty
   [ ! -z "${GITHUBORG}" ] && [ ! -z "${GITHUBREPO}" ] && [ ! -z "${GITHUBTOKEN}" ]
 }
